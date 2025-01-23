@@ -166,6 +166,37 @@
     opacity: 60%;
     margin-top: 1rem;
 }
+/* Hot deal section styles */
+.hot-deal-section{
+    background-color: rgba(229, 84, 115, 0.05);
+    height: auto;
+    margin-bottom: 200px;
+}
+.hot-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    text-align: center;
+    padding: 3.5rem;
+}
+.hot-content > h2{
+    font-size: 2.5rem;
+    font-weight: 1000;
+    margin-bottom: 1.5rem;
+}
+.hot-content > p{
+    width: 60%;
+    margin: 0rem auto;
+    margin-bottom: 1.5rem;
+    font-size: 1.02rem;
+    color: #272727;
+    opacity: 70%;
+}
+.hot-button{
+    width: 20%;
+    height: 3.5rem;
+}
+
 
 
 
@@ -259,5 +290,13 @@
     .icon-container{
         flex-direction: column;
         gap: 5rem;
+    }
+
+    /* Hot deal */
+    .hot-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .hot-content{
+        margin-bottom: 2rem;
     }
 }
