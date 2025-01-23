@@ -327,4 +327,14 @@
     .hot-content{
         margin-bottom: 2rem;
     }
+    /* Instagram Section */
+    .instagram-container{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    .instagram-section{
+        padding: 1.25rem;
+        width: calc( 100% - 40px );
+
+    }
 }
