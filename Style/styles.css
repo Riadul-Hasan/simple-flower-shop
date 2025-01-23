@@ -319,7 +319,13 @@
     opacity: 40%;
 }
 
-
+/* Display None operation */
+.shop-btn1{
+    display: none;
+}
+.box4{
+    display: none;
+}
 
 
 
@@ -459,5 +465,107 @@
         width: 80%;
         opacity: 60%;
     }
+
+    .shop-btn1{
+        display: none;
+    }
+    .box4{
+        display: none;
+    }
     
+}
+
+
+@media screen and (min-width: 576.5px) and (max-width: 992px) {
+    .header-section{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    .header-content{
+        margin: 0rem;
+        width: 90%;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .header-title{
+        width: 100%;
+        font-size: 3.5rem;
+    }
+    .header-flower{
+        width: 70%;
+        margin: 0rem auto;
+        margin-left: 200px;
+    }
+    .shop-btn{
+        display: none;
+    }
+    .header-flower > img{
+        width: 70%;
+    }
+    .shop-now{
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    /* Features */
+    .features-section{
+        margin: 2rem;
+        width: calc( 100% - 32px);
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .features-content > p{
+        width: 80%;
+    }
+    .flower-container{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    .flower-name{
+        display: none;
+    }
+
+    .flower-box{
+        height: 300px;
+        width: 100%;
+    }
+    /* Support */
+    .support{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+    .icon-container{
+        padding: 3rem;
+        flex-direction: column;
+        gap: 3rem;
+    }
+    /* Hot Deals */
+    .hot-container{
+        padding: 1rem;
+    }
+    .hot-button{
+        width: 10rem;
+    }
+
+    /* Instagram */
+    .instagram-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Latest */
+    .latest-section{
+        height: 449px;
+        width: 95%;
+    }
+    .latest-content{
+        padding: 0rem;
+    }
+    .latest-content .inputs{
+        width: 80%;
+        margin-top: 2rem;
+    }
+
 }
