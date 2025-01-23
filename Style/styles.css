@@ -197,9 +197,37 @@
     height: 3.5rem;
 }
 
-
-
-
+/* Instagram section styles */
+.instagram-section{
+    width: 80%;
+    margin: 0px auto;
+    margin-bottom: 200px;
+    /* background-color: azure; */
+}
+.instagram-content{
+    text-align: center;
+}
+.instagram-content > h2{
+    font-size: 2.5rem;
+    font-weight: 1000;
+    margin-bottom: 1.5rem;
+}
+.instagram-content > p{
+    font-size: 1.125rem;
+    width: 70%;
+    margin: 0rem auto;
+    color: #272727;
+    opacity: 70%;
+    margin-bottom: 3rem;
+}
+.instagram-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+}
+.instagram-box > img{
+    width: 100%;
+}
 
 
 
