@@ -133,6 +133,9 @@
     font-weight: bold;
     color: #272727;
 }
+.see-all-btn{
+    display: none;
+}
 
 
 
@@ -194,6 +197,32 @@
         margin-bottom: 2rem;
     }
 
+    /* Features section */
+    .features-section{
+        margin-left: 0rem;
+        margin-right: 0rem;
+        width: 100%;
+    }
+    .features-content{
+        width: 100%;
+        text-align: center;
+    }
+    .features-content > p{
+        width: 60%;
+    }
+    .flower-container{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 3rem;
+        padding: 2rem;
+        width: calc( 100% - 64px );
+    }
+    .flower-name{
+        display: none;
+    }
+    .see-all-btn{
+       display: flex;
+       justify-content: center;
+    }
 
 
 }
