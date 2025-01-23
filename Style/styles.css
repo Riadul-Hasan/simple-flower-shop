@@ -235,7 +235,8 @@
     margin: 0rem auto;
     background-image: url('../Flower Asset/Rectangle\ 9.png');
     background-repeat: no-repeat;
-    background-size: 100%;
+    /* background-size: 100%; */
+    background-size: cover;
     height: auto;
    margin-bottom: 200px;
    display: flex;
@@ -289,6 +290,35 @@
     background-color: steelblue;
     cursor: pointer;
 }
+
+/* Footer Section */
+.footer-section{
+    height: 400px;
+    background-color: #111010;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-section > h2{
+    font-size: 3rem;
+    font-weight: 1000;
+}
+.footer-section > .footer-paragraph{
+    width: 30%;
+    text-align: center;
+    margin-top: 1rem;
+    color: #FFFFFF;
+    opacity: 80%;
+    margin-bottom: 1rem;
+}
+.copyright{
+    font-size: 1rem;
+    color: white;
+    opacity: 40%;
+}
+
 
 
 
@@ -386,6 +416,7 @@
     .hot-content{
         margin-bottom: 2rem;
     }
+
     /* Instagram Section */
     .instagram-container{
         grid-template-columns: repeat(2, 1fr);
@@ -394,6 +425,39 @@
     .instagram-section{
         padding: 1.25rem;
         width: calc( 100% - 40px );
+        margin-bottom: 100px;
 
     }
+
+    /* Latest Section */
+    .latest-section{
+       background-image: none;
+       height: 400px;
+       padding: 0rem;
+       background-color:rgba(229, 84, 115, 0.1);
+       margin-top: 0rem;
+       width: 100%;
+       border-radius: 0rem;
+       margin-bottom: 0rem;
+    }
+    .latest-content{
+        display: flex;
+        flex-direction: column;
+        padding: 0rem;
+        text-align: center;
+    }
+    .inputs{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .input-btn{
+        background-color: rgba(229, 84, 115, 1);
+    }
+
+    /* footer */
+    .footer-section > .footer-paragraph{
+        width: 80%;
+        opacity: 60%;
+    }
+    
 }
